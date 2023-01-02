@@ -1,0 +1,87 @@
+div.hero-container {
+  background: url("images/bg-15.jpg") center center/cover no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
+
+.hero-container > h1 {
+  background: transparent;
+  color: #f8f8f8;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 6.5rem;
+  margin-top: -140px;
+  line-height: 7rem;
+}
+
+span {
+  font-size: 6.8rem;
+  background: transparent;
+  text-decoration-line: line-through;
+  text-transform: uppercase;
+  text-decoration-color: #212121;
+  text-decoration-thickness: 20px;
+}
+
+.hero-container > p {
+  background: transparent;
+  margin-top: 25px;
+  color: #f5f5f5;
+  font-size: 1.4rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.hero-btns {
+  margin-top: 32px;
+}
+
+.hero-btns .btn {
+  margin: 6px;
+}
+
+@media screen and (max-width: 1050px) {
+  .hero-container > h1 {
+    font-size: 5.3rem;
+    line-height: 6.2rem;
+  }
+  span {
+    font-size: 5.7rem;
+  }
+
+  .hero-container > p {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .hero-container > h1 {
+    font-size: 4.9rem;
+    margin-top: -135px;
+  }
+  span {
+    font-size: 5.1rem;
+  }
+  .hero-container > p {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 785px) {
+  .hero-container > h1 {
+    margin-top: -70px;
+    font-size: 4.8rem;
+  }
+  span {
+    font-size: 4.9rem;
+  }
+}
